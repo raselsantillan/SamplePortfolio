@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/bg9.jpg");
+    background-image: url("images/background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@ h1.portfolio-heading {
     text-shadow: 1px 0 #FFFFF0;
     letter-spacing:1px;
     font-weight:bolder;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 img.rounded-image {
@@ -43,9 +43,8 @@ h2.displayed-name a {
 }
 
 h2.displayed-name a:hover {
-    color: #0A0025;
-    border: 2px solid #43134F;
-    background-color: #E09BC8;
+    border: 2px solid #E09BC8;
+    background-color: rgba(224, 155, 200, 0.2);
     border-radius: 8px;
     padding: 5px;
 }
