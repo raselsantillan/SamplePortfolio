@@ -1,1 +1,1 @@
-# SamplePortfolio
+# SelfPortfolio
