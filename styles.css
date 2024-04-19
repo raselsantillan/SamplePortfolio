@@ -12,38 +12,35 @@ body {
 h1.portfolio-heading {
     color: #FFFFF0;
     font-size: 30px;
-    text-align: center;
     text-shadow: 1px 0 #FFFFF0;
     letter-spacing:1px;
     font-weight:bolder;
-    margin-top: 30px;
+    /* text-align: center;
+    margin-top: 30px; */
 }
 
 img.rounded-image {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    display: block;
+    /* display: block;
     margin: 0 auto;
-    margin-top: 20px;
-}
-
-h2.displayed-name {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 20px; 
+    margin-top: 20px; */
 }
 
 h2.displayed-name a {
     color: #FFFFF0;
     text-decoration: none;
-    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    /* margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;  */
 }
 
 h2.displayed-name a:hover {
-    border: 2px solid #E09BC8;
+    border: 2px solid #834c70;
     background-color: rgba(224, 155, 200, 0.2);
     border-radius: 8px;
     padding: 5px;
