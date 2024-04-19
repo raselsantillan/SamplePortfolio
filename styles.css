@@ -48,17 +48,14 @@ h2.displayed-name a:hover {
 
 .educational-background h4 {
     font-size: 16px;
-    position: relative;
 }
 
-.educational-background h4::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 100%;
+hr{
+    border: none;
     height: 1px;
     background-color: #FFFFF0;
+    margin-top: -10px; 
+    margin-bottom: 10px; 
 }
 
 table {
