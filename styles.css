@@ -54,7 +54,7 @@ hr{
     border: none;
     height: 1px;
     background-color: #FFFFF0;
-    margin-top: -10px; 
+    margin-top: -13px; 
     margin-bottom: 10px; 
 }
 
@@ -110,8 +110,11 @@ p {
     font-size: 16px;
     line-height: 1.5;
     text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 li{
+    
     line-height: 1.3;
 }
