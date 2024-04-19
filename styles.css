@@ -8,11 +8,10 @@ body {
     border: 2px solid #919191;
     padding: 20px;
     font-family: Arial, sans-serif;
-    color: #FFFFF0;
+    color: ghostwhite;
 }
 
 h1.portfolio-heading {
-    color: #FFFFF0;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -24,7 +23,7 @@ img.rounded-image {
 }
 
 h2.displayed-name a {
-    color: #FFFFF0;
+    color: ghostwhite;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -53,7 +52,7 @@ h2.displayed-name a:hover {
 hr{
     border: none;
     height: 1px;
-    background-color: #FFFFF0;
+    background-color: ghostwhite;
     margin-top: -13px; 
     margin-bottom: 10px; 
 }
@@ -61,7 +60,6 @@ hr{
 table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
 }
 
 table, th, td {
@@ -107,11 +105,11 @@ ul {
 }
 
 p {
+    text-align: justify;
+    text-justify: inter-word;
     font-size: 16px;
     line-height: 1.5;
     text-indent: 2em;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 li{
