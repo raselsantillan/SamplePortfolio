@@ -1,3 +1,5 @@
+/* External CSS - Self Portfolio */
+
 body {
     background-image: url("images/background.jpg");
     background-attachment: fixed;
@@ -12,20 +14,13 @@ body {
 h1.portfolio-heading {
     color: #FFFFF0;
     font-size: 30px;
-    text-shadow: 1px 0 #FFFFF0;
-    letter-spacing:1px;
-    font-weight:bolder;
-    /* text-align: center;
-    margin-top: 30px; */
+    font-weight: bolder;
 }
 
 img.rounded-image {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    /* display: block;
-    margin: 0 auto;
-    margin-top: 20px; */
 }
 
 h2.displayed-name a {
@@ -34,9 +29,6 @@ h2.displayed-name a {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    /* margin: 0 auto;
-    text-align: center;
-    margin-top: 20px;  */
 }
 
 h2.displayed-name a:hover {
@@ -121,4 +113,8 @@ p {
     font-size: 16px;
     line-height: 1.5;
     text-indent: 2em;
+}
+
+li{
+    line-height: 1.3;
 }
